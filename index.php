@@ -1,6 +1,6 @@
     <?php
 //	$ID_File = $_SERVER['QUERY_STRING'];
-    $file = 'movie.mp4';
+    $file = 'https://www.googleapis.com/drive/v3/files/15NonV4RqbJYFJFgnVOYJAvCKX1s4o-YS?key=AIzaSyBDxIV0cTa6fpeHzkZ5B763dcA7FhjoTYs&alt=media';
     $fp = @fopen($file, 'rb');
     $size   = filesize($file); // File size
     $length = $size;           // Content length
